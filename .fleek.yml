@@ -1,0 +1,38 @@
+aliases:
+    fleeks: cd /home/dan/.local/share/fleek
+bling: high
+ejected: false
+flakedir: .local/share/fleek
+git:
+    autocommit: false
+    autopull: false
+    autopush: false
+    enabled: false
+name: Fleek Configuration
+packages:
+    - du-dust
+    - chezmoi
+    - zsh-autosuggestions
+    - zsh-syntax-highlighting
+    - oh-my-zsh
+    - silver-searcher
+    - starship
+    - rclone
+    - shfmt
+    - flux
+    - faas-cli
+    - curlie
+    - kind
+    - poetry
+paths:
+    - $HOME/bin
+    - $HOME/.local/bin
+programs:
+    - dircolors
+shell: zsh
+systems:
+    - arch: x86_64
+      hostname: walkabout
+      os: linux
+      username: dan
+unfree: true
